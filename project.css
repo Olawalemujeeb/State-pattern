@@ -1,0 +1,25 @@
+header{
+    background: deeppink;
+    height: 100vh;
+    display: flex;
+}
+.img img{
+    width: 100px;
+    height: 5vh;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.navv ul li{
+    display: inline-block;
+    margin-top: 60px;
+    width: 100px;
+    
+}
+.navv{
+    margin-left: 400px;
+}
+.navv ul li a{
+    text-decoration: none;
+color: white;
+font-weight: 700;
+}

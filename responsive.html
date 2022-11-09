@@ -1,0 +1,52 @@
+<div class="slider">
+    <div class="images">
+        <input type="radio" name="slide" id="img1" checked >
+        <input type="radio" name="slide" id="img2">
+        <input type="radio" name="slide" id="img3">
+
+        <img src="./mujeebpro/img/slide/slide-1.jpg" class="m1" alt="img1">
+        <img src="./mujeebpro/img/slide/slide-2.jpg" class="m2" alt="img2">
+        <img src="./mujeebpro/img/slide/slide-3.jpg" class="m3" alt="img">
+    </div>
+    <div class="dots">
+        <label for="img1"></label>
+        <label for="img2"></label>
+        <label for="img3"></label>
+    </div>
+</div>
+   
+
+
+
+.slider{
+    position: relative;
+    width: ;
+    overflow: hidden;
+}
+.images{
+    display: flex;
+    width: 100%;
+}
+.images img{
+    height: 400px;
+    transition: all 1s ease;
+}
+.images input{
+    display: none;
+}
+.dots{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+.dots label{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: solid lime 3px;
+}
+
+
+
+
+

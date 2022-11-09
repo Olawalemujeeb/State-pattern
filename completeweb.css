@@ -1,0 +1,32 @@
+.service{
+    border-radius: .3em;
+    background-color: #34495e;
+    text-align: center;
+    padding: 3em 2em 1em 2em;
+}
+.section-title{
+    text-align: center;
+    margin-top: 1em;
+    background-color: white;
+    padding: .5em 0;
+    border-radius: .3em;
+}
+.service .fa{
+    font-size: 5rem;
+    color: white;
+}
+p{
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+}
+.container{
+    height: 60vh;
+}
+.we{
+    font-size: 12px;
+}
+.section-tag{
+    color: white;
+    font-weight: 600;
+}

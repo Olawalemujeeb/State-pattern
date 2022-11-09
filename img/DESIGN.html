@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!-- saved from url=(0033)http://127.0.0.1:5502/header.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DESIGN</title>
+    
+    
+<link rel="stylesheet" href="./DESIGN_files/header.css"><link rel="stylesheet" href="./DESIGN_files/font.css"></head>
+
+<body>
+    <div class="container">
+
+    <div class="navitems">
+        <img "="" src="./DESIGN_files/logo.png" alt="">
+        <ul>
+            <li><a href="http://127.0.0.1:5502/header.html#">HOME</a></li>
+            <li><a href="http://127.0.0.1:5502/header.html#">ABOUT</a></li>
+            <li><a href="http://127.0.0.1:5502/header.html#">SERVICES</a></li>
+            <li><a href="http://127.0.0.1:5502/header.html#">DESIGN</a></li>
+            <li><a href="http://127.0.0.1:5502/header.html#">CONTACT</a></li>
+            <li><input type="text" placeholder="Type to text"><button>Search</button></li>
+        </ul>
+    </div> <br> <br><br><br>
+    <section>
+        <div class="details">
+            <h2>Web Design &amp; <br> <b> Development </b> <br>Course</h2> <br> <br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos  <br> molestias  voluptatem sed qui perferendis
+                aliquid 
+                cumque. Ab  <br> harum  exercitationem <br> perspiciatis nam officiis quibusdam similique esse!</p> <br>
+                <button id="okay"> JOIN US</button> <br>
+        </div>
+        <div class="myform">
+        <form> <br>
+            <h2>Login Here</h2> <br> <br>
+            <input type="email" placeholder="Enter Your Email"><br> <br>
+            <input type="email" placeholder="Enter Your Password"><br> <br>
+            <button>Login</button> <br> <br>
+            <p>Don't have an account?</p>
+            <a href="http://127.0.0.1:5502/header.html#"> Sign up  here</a> <br> <br>
+            <p id="ball"> Login With</p> <br>
+<i class="fa fa-facebook"></i>
+<i class="fa fa-instagram"></i>
+<i class="fa fa-twitter"></i>
+<i class="fa fa-google"></i>
+<i class="fa fa-skype"></i>
+        </form>
+    </div>
+</section>
+    </div>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
